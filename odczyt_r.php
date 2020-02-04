@@ -6,6 +6,7 @@
 </head>
 <body>
     <?php
+	//r - Otwiera plik do odczytu, ustawia wskaźnik na początku. Plik musi być wcześniej utworzony.
 	$nazwa="testowy.txt";
 		if(@fopen($nazwa,"r")){
 		$uchwyt=fopen($nazwa,"r");
